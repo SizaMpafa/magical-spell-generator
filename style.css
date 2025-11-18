@@ -1,0 +1,14 @@
+body{
+    margin: 0 auto;
+    width: 50vw;
+    background-image: url("https://i.guim.co.uk/img/media/9f7b033af10c2d56439ad02571495cf4c3e4f722/0_0_3000_1800/master/3000.jpg?width=1900&dpr=2&s=none&crop=none");
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.spellArea{
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid;
+    height: 100px;
+}
