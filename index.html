@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>cast a spell</title>
 </head>
-<body>
-    <h1 class="heading">Welcome To The Magical Spell Generator!</h1>
-    <div class="spellArea"></div>
-    <ul class="ingredientsList">
-        <li>mgcezulu</li>
-        <li>mtshovalale</li>
-        <li>mphethulamehlo!</li>
+<body class="container">
+    <h1 class="heading mb-5 text-center text-white fst-italic">Welcome To The Magical Spell Generator!</h1>
+    <ul class="ingredientsList d-flex list-unstyled fw-bold text-white m-0 mx-auto w-25">
+        <li class="p-2">mgcezulu</li>
+        <li class="p-2">mtshovalale</li>
+        <li class="p-2">mphethulamehlo!</li>
     </ul>
-    <button class="generateButton">generate spell</button>
-    <button class="resetGeneration">reset</button>
+    <div class="spellArea"></div>
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="generateButton btn btn-secondary">generate spell</button>
+        <button type="button" class="resetGeneration btn btn-secondary">reset</button>
+    </div>
     <script src="/magical-spell-generator/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
